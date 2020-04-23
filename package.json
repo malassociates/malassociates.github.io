@@ -1,0 +1,25 @@
+{
+  "name": "malassociates.github.io",
+  "version": "1.0.0",
+  "description": "https://malassociates.github.io/\r A github website page for malassociates.co.uk",
+  "main": "index.js",
+  "dependencies": {
+    "@popperjs/core": "^2.3.3",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malassociates/malassociates.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malassociates/malassociates.github.io/issues"
+  },
+  "homepage": "https://github.com/malassociates/malassociates.github.io#readme"
+}
