@@ -4,30 +4,19 @@
     <script src="./JS/jquery-3.5.0.min.js"></script>
     <script src="./JS/popper.min.js"></script>
     <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/common.js"></script>
     <link rel="stylesheet" type="text/css" href="./CSS/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="./CSS/common.css"/>
   </head>
   <body>
     <div class="container-fluid">
        <!--Main header bar-->
-      <div class="row menuBar">
-        <div class="col-md-3 col-12">
-          One col
-        </div>
-        <div class="col-md-3 col-12">
-          One col
-        </div>
-        <div class="col-md-3 col-12">
-          One col
-        </div>
-        <div class="col-md-3 col-12">
-          One col
-        </div>
-        
-      </div>
+      <div class="row header"></div>
+      
       <div class="row content">
-        One row
+        <a onclick="loadIn('./components/header.html', 'row header')">Does this show up</a>
       </div>
+
     </div>
   </body>
 </html>
