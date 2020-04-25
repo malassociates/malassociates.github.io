@@ -7,7 +7,9 @@
 .links {
 	background-color: #00b34a;
 }
-
+.content {
+	margin-left: 15px;
+}
 .links h3 a {
 	color: white;
 	text-shadow: 1px 1px black;
