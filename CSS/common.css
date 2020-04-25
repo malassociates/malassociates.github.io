@@ -1,3 +1,26 @@
-.row {
-    width: 100%;
+.logoImg {
+	padding-top: 15px;
+	padding-right: 15px;
+	width: 550px;
+	max-width: 100%;
+}
+.content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.links {
+	background-color: #00b34a;
+}
+
+.links h3 a {
+	color: white;
+	text-shadow: 1px 1px black;
+}
+@media screen and (max-width: 768px) {
+   .logoImg {
+		padding-top: 15px;
+		padding-right: 15px;
+		width: 350px;
+		max-width: 100%;
+   }
 }
