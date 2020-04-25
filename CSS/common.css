@@ -17,11 +17,52 @@
 .links h3 {
 	text-align: center;
 }
+.links .dropdown {
+	display: none;
+}
 @media screen and (max-width: 768px) {
-   .logoImg {
+	.logoImg {
 		padding-top: 15px;
 		padding-right: 15px;
 		width: 350px;
 		max-width: 100%;
-   }
+	}
+	.links .dropdown {
+		display: initial;
+	}
+	.links .largeLink {
+		display: none;
+	}
+	.linkSelector {
+		width: 104%;
+		background-color: #00b34a;
+		color: white;
+		text-shadow: 1px 1px black;
+		border: none;
+	}
+	.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+		color: white;
+		background-color: #00b34a;
+		text-shadow: 1px 1px black;
+		border: none;
+	}
+	.btn-secondary.focus, .btn-secondary:focus {
+		color: white;
+		background-color: #00b34a;
+		text-shadow: 1px 1px black;
+		border: none;
+		box-shadow: none;
+	}
+	.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+		box-shadow: none;
+	}
+	.dropdown-menu.show {
+		width: 100%;
+		text-align: center;
+	}
+	.dropdown-item.active, .dropdown-item:active {
+		color: white;
+		background-color: #00b34a;
+		text-shadow: 1px 1px black;
+	}
 }
