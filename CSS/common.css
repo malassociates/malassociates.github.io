@@ -5,8 +5,7 @@
 	max-width: 100%;
 }
 .content {
-	padding-left: 15px;
-	padding-right: 15px;
+	margin-left:15px;
 }
 .links {
 	background-color: #00b34a;
