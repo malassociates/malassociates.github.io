@@ -7,7 +7,7 @@
 .content {
 	background: white;
 }
-.content h1 {
+.content h1, .content h3 {
 	color: #00b34a;
 	font-weight: bold;
 	text-shadow: 1px 1px black;
@@ -21,16 +21,16 @@
 .links {
 	background-color: #00b34a;
 }
-.links h3 a {
+.links h3 a, .links h4 a {
 	color: white;
 	text-shadow: 1px 1px black;
 }
-.links h3 {
+.links h3, .links h4 {
 	text-align: center;
 	padding: 10px;
 }
 .footer .links {
-	background-color: #f1f1f1;
+	background-color: #151637;
 }
 .links .dropdown {
 	display: none;
