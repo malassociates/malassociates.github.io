@@ -28,18 +28,19 @@
 		max-width: 100%;
 	}
 	.links .dropdown {
-		display: initial;
+		display: block;
 	}
 	.links .largeLink {
 		display: none;
 	}
 	.linkSelector {
-		width: 104%;
+		width: 100%;
 		background-color: #00b34a;
 		color: white;
 		text-shadow: 1px 1px black;
 		border: none;
 	}
+	/*Mostly to overwrite bootstrap stuff*/
 	.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
 		color: white;
 		background-color: #00b34a;
