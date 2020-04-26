@@ -17,3 +17,19 @@ function loadIn(file, className) {
 function getCurrentPage() {
 	return location.pathname.split('/').slice(-1)[0].split('.html')[0];
 }
+$(document).ready(function() {
+	 //Load the header component
+	 var curPage = getCurrentPage();
+	 if(curPage !== 'index') {
+		loadIn('./components/header.html', 'row header');
+	 }
+	 if(curPage === 'home') {
+		 curPage = curPage.charAt(0).toUpperCase() + curPage.slice(1);
+		 $('#dropdownMenuButton').html(curPage);
+	 }
+	 else if (curPage === 'about-us') {
+		curPage = curPage.charAt(0).toUpperCase() + curPage.slice(1);
+		curPage = curPage.replace('-', ' ');
+		$('#dropdownMenuButton').html(curPage);
+	 }
+})
