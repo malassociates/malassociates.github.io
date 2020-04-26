@@ -5,9 +5,12 @@
 	background: white;
 }
 .content h1, .content h3 {
-	color: #00b34a;
+	color: black;
 	font-weight: bold;
 	text-shadow: 1px 1px black;
+}
+.content p {
+	font-weight: bold;
 }
 .logoImg {
 	padding-top: 15px;
