@@ -1,3 +1,20 @@
+.container-fluid {
+	background: #f1f1f1;
+}
+.header {
+	background: white;
+}
+.footer {
+	background: #f1f1f1;
+}
+.content {
+	background: white;
+}
+.content h1 {
+	color: #00b34a;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+}
 .logoImg {
 	padding-top: 15px;
 	padding-right: 15px;
@@ -6,9 +23,6 @@
 }
 .links {
 	background-color: #00b34a;
-}
-.content {
-	margin-left: 15px;
 }
 .links h3 a {
 	color: white;

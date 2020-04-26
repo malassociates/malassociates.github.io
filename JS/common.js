@@ -21,7 +21,12 @@ $(document).ready(function() {
 	 //Load the header component
 	 var curPage = getCurrentPage();
 	 if(curPage !== 'index') {
-		loadIn('./components/header.html', 'row header');
+		if($(".header").length > 0) {
+			loadIn('./components/header.html', 'row header');
+		}
+		if($(".footer").length > 0) {
+			loadIn('./components/footer.html', 'row footer');
+		}
 	 }
 	 if(curPage === 'home') {
 		 curPage = curPage.charAt(0).toUpperCase() + curPage.slice(1);
