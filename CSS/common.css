@@ -39,6 +39,7 @@
 		color: white;
 		text-shadow: 1px 1px black;
 		border: none;
+		text-align: left;
 	}
 	/*Mostly to overwrite bootstrap stuff*/
 	.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
@@ -60,6 +61,10 @@
 	.dropdown-menu.show {
 		width: 100%;
 		text-align: center;
+	}
+	.dropdown-item {
+		font-weight: bold;
+		text-align: left;
 	}
 	.dropdown-item.active, .dropdown-item:active {
 		color: white;
