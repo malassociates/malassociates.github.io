@@ -68,6 +68,8 @@
 	color: white;
 	margin-right: 10px;
 	font-size: x-large;
+	/*Fix issue where icon doesnt show up in edge*/
+	display: inline-block !important;
 }
 
 .links .dropdown {
