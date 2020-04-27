@@ -18,6 +18,9 @@
 	width: 550px;
 	max-width: 100%;
 }
+.fullImg {
+	width: 100%;
+}
 .links {
 	background-color: #00b34a;
 }
@@ -29,7 +32,10 @@
 	text-align: center;
 	padding: 10px;
 }
-.footer .links h3, .footer .links h4{
+.footer{
+	margin-top: 15px;
+}
+.footer .links h1, .footer .links h2, .footer .links h3, .footer .links h4{
 	text-align: left;
 	padding: 10px 0px;
 	color: white;

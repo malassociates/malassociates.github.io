@@ -28,7 +28,7 @@ $(document).ready(function() {
 			loadIn('./components/footer.html', 'row footer');
 		}
 	 }
-	 if(curPage === 'home') {
+	 if(curPage === 'home' || curPage === 'design') {
 		 curPage = curPage.charAt(0).toUpperCase() + curPage.slice(1);
 		 $('#dropdownMenuButton').html(curPage);
 	 }
