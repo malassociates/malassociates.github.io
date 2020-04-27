@@ -9,7 +9,7 @@
 	font-weight: bold;
 	text-shadow: 1px 1px black;
 }
-.content p {
+.content p, .content ul li {
 	font-weight: bold;
 }
 .logoImg {
