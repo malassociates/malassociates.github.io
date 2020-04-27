@@ -29,9 +29,47 @@
 	text-align: center;
 	padding: 10px;
 }
+.footer .links h3, .footer .links h4{
+	text-align: left;
+	padding: 10px 0px;
+	color: white;
+}
+.footer .links p {
+	color: white;
+}
 .footer .links {
 	background-color: #333333;
 }
+
+.footer .links li{
+	display: block;
+}
+
+.footer .links ul {
+	padding-left: 5px;
+	color: white;
+}
+.footer .links .navigation li{
+	padding: 5px 0px;
+}
+.footer .links ul li a{
+	color: white;
+	font-weight: bold;
+}
+.footer .links .footerSection {
+	margin: 5px 0px;
+	border-right: white solid 2px;
+}
+.footer .links .footerSection:last-child {
+	border-right: none;
+}
+
+.footer .links .footerSection .socialContent .fa-facebook-square{
+	color: white;
+	margin-right: 10px;
+	font-size: x-large;
+}
+
 .links .dropdown {
 	display: none;
 }
@@ -56,6 +94,18 @@
 		border: none;
 		text-align: left;
 	}
+	.footer .links .footerSection {
+		margin: 5px 0px;
+		border-bottom: white solid 2px;
+		border-right: none;
+	}
+	.footer .links .footerSection .navigation li{
+		padding: 10px 0px;
+	}
+	.footer .links .footerSection:last-child {
+		border-bottom: none;
+	}
+
 	/*Mostly to overwrite bootstrap stuff*/
 	.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
 		color: white;
