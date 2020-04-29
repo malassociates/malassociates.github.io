@@ -32,6 +32,10 @@
 	text-align: center;
 	padding: 10px;
 }
+.links .link a.selected {
+	border-bottom: white solid 5px;
+	padding-bottom: 3px;
+}
 .footer{
 	margin-top: 15px;
 }
