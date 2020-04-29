@@ -77,6 +77,9 @@
 	/*Fix issue where icon doesnt show up in edge*/
 	display: inline-block !important;
 }
+.footer .links .footerSection .socialContent li {
+	padding: 5px 0px;
+}
 
 .links .dropdown {
 	display: none;
@@ -113,6 +116,10 @@
 	.footer .links .footerSection:last-child {
 		border-bottom: none;
 	}
+	.footer .links .footerSection .socialContent li {
+		padding: 10px 0px;
+	}
+	
 
 	/*Mostly to overwrite bootstrap stuff*/
 	.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
