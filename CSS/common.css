@@ -70,7 +70,7 @@
 	border-right: none;
 }
 
-.footer .links .footerSection .socialContent .fa-facebook-square{
+.footer .links .footerSection .socialContent .fa-facebook-square, .footer .links .footerSection .socialContent .fa-instagram-square, .footer .links .footerSection .socialContent .fa-twitter-square{
 	color: white;
 	margin-right: 10px;
 	font-size: x-large;
