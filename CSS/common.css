@@ -93,7 +93,7 @@
 	padding: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.logoImg {
 		padding-top: 15px;
 		padding-right: 15px;
