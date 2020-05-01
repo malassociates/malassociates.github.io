@@ -4,7 +4,7 @@
 .content {
 	background: white;
 }
-.content h1, .content h3 {
+.content h1, .content h2, .content h3 {
 	color: black;
 	font-weight: bold;
 	text-shadow: 1px 1px black;
