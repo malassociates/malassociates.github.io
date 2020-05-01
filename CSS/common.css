@@ -64,6 +64,9 @@
 	color: white;
 	font-weight: bold;
 }
+.footer .links ul li{
+	padding: 10px 0px;
+}
 
 .footer .links .footerSection {
 	margin: 5px 0px;
