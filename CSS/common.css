@@ -88,6 +88,11 @@
 .links .dropdown {
 	display: none;
 }
+
+.home-banner {
+	background-image: url('../images/home-banner.jpg');
+}
+
 @media screen and (max-width: 768px) {
 	.logoImg {
 		padding-top: 15px;
