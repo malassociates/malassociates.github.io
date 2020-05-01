@@ -59,13 +59,12 @@
 	padding-left: 5px;
 	color: white;
 }
-.footer .links .navigation li{
-	padding: 5px 0px;
-}
+
 .footer .links ul li a{
 	color: white;
 	font-weight: bold;
 }
+
 .footer .links .footerSection {
 	margin: 5px 0px;
 	border-right: white solid 2px;
@@ -74,15 +73,12 @@
 	border-right: none;
 }
 
-.footer .links .footerSection .socialContent .fa-facebook-square, .footer .links .footerSection .socialContent .fa-instagram-square, .footer .links .footerSection .socialContent .fa-twitter-square{
+.footer .fa-facebook-square, .footer .fa-instagram-square, .footer .fa-twitter-square, .footer .fa-envelope-square, .footer .fa-phone{
 	color: white;
 	margin-right: 10px;
 	font-size: x-large;
 	/*Fix issue where icon doesnt show up in edge*/
 	display: inline-block !important;
-}
-.footer .links .footerSection .socialContent li {
-	padding: 5px 0px;
 }
 
 .links .dropdown {
