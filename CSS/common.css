@@ -94,6 +94,14 @@
 	margin-bottom: 25px;
 }
 
+.workExample {
+	padding-top: 10px;
+}
+.workExample a {
+	color: black;
+	font-weight: bold;
+}
+
 @media screen and (max-width: 767px) {
 	.logoImg {
 		padding-top: 15px;
