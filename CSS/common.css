@@ -22,7 +22,7 @@
 	width: 100%;
 }
 .links {
-	background-color: #00b34a;
+	background-color: #049FD7;
 }
 .links h3 a, .links h4 a {
 	color: white;
@@ -117,7 +117,7 @@
 	}
 	.linkSelector {
 		width: 100%;
-		background-color: #00b34a;
+		background-color: #049FD7;
 		color: white;
 		text-shadow: 1px 1px black;
 		border: none;
@@ -143,13 +143,13 @@
 	/*Mostly to overwrite bootstrap stuff*/
 	.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
 		color: white;
-		background-color: #00b34a;
+		background-color: #049FD7;
 		text-shadow: 1px 1px black;
 		border: none;
 	}
 	.btn-secondary.focus, .btn-secondary:focus, .btn-secondary.hover, .btn-secondary:hover {
 		color: white;
-		background-color: #00b34a;
+		background-color: #049FD7;
 		text-shadow: 1px 1px black;
 		border: none;
 		box-shadow: none;
@@ -168,7 +168,7 @@
 	}
 	.dropdown-item.active, .dropdown-item:active {
 		color: white;
-		background-color: #00b34a;
+		background-color: #049FD7;
 		text-shadow: 1px 1px black;
 	}
 }
