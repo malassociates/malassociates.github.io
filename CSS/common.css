@@ -16,7 +16,6 @@
 	padding-top: 15px;
 	padding-right: 15px;
 	width: 550px;
-	max-width: 100%;
 }
 .fullImg {
 	width: 100%;
@@ -107,7 +106,6 @@
 		padding-top: 15px;
 		padding-right: 15px;
 		width: 350px;
-		max-width: 100%;
 	}
 	.links .dropdown {
 		display: block;
