@@ -32,7 +32,7 @@ $(document).ready(function() {
 			$(`.link a.${curPage}`).addClass('selected');
 		}
 	 }
-	 if(curPage === 'home' || curPage === 'design') {
+	 if(curPage === 'home' || curPage === 'design' || curPage === 'construction') {
 		 curPage = curPage.charAt(0).toUpperCase() + curPage.slice(1);
 		 $('#dropdownMenuButton').html(curPage);
 	 }
