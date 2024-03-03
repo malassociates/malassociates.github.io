@@ -14,8 +14,8 @@
 }
 .logoImg {
 	padding-right: 15px;
-	width: 100%;
 	min-width: 120px;
+	max-width: 150px;
 }
 .fullImg {
 	width: 100%;
