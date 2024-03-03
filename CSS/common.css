@@ -15,6 +15,7 @@
 .logoImg {
 	padding-right: 15px;
 	width: 100%;
+	min-width: 120px;
 }
 .fullImg {
 	width: 100%;
@@ -130,7 +131,7 @@
 		text-shadow: 1px 1px black;
 		border: none;
 		text-align: left;
-		font-size: xx-large;
+		font-size: x-large;
 	}
 	.footer .links .footerSection {
 		margin: 5px 0px;
