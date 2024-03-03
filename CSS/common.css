@@ -5,35 +5,41 @@
 	background: white;
 }
 .content h1, .content h2, .content h3 {
-	color: black;
+	color: #1999D1;
 	font-weight: bold;
-	text-shadow: 1px 1px black;
+	text-shadow: 1px 1px #6A7174;
 }
 .content p, .content ul li {
 	font-weight: bold;
 }
 .logoImg {
-	padding-top: 15px;
 	padding-right: 15px;
-	padding-bottom: 15px;
-	width: 700px;
+	width: 100%;
 }
 .fullImg {
 	width: 100%;
 }
 .links {
-	background-color: #049FD7;
+	background-color: #fff;
+	height: 100%
 }
-.links h3 a, .links h4 a {
-	color: white;
-	text-shadow: 1px 1px black;
+.largeLink {
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
 }
-.links h3, .links h4 {
+.links span a{
+	color: #1999D1;
+	text-shadow: 1px 1px #6A7174;
+	font-size: 1.5rem;
+}
+.links span {
 	text-align: center;
 	padding: 10px;
 }
 .links .link a.selected {
-	border-bottom: white solid 5px;
+	border-bottom: #0A589A solid 5px;
 	padding-bottom: 3px;
 }
 .footer{
@@ -42,13 +48,13 @@
 .footer .links h1, .footer .links h2, .footer .links h3, .footer .links h4{
 	text-align: left;
 	padding: 10px 0px;
-	color: white;
+	color: #EAF9F8;
 }
 .footer .links p {
-	color: white;
+	color: #EAF9F8;
 }
 .footer .links {
-	background-color: #333333;
+	background-color: #063760;
 }
 
 .footer .links li{
@@ -57,11 +63,12 @@
 
 .footer .links ul {
 	padding-left: 5px;
-	color: white;
+	color: #EAF9F8;
+	text-shadow: 1px 1px #6A7174;
 }
 
 .footer .links ul li a{
-	color: white;
+	color: #EAF9F8;
 	font-weight: bold;
 }
 .footer .links ul li{
@@ -70,14 +77,18 @@
 
 .footer .links .footerSection {
 	margin: 5px 0px;
-	border-right: white solid 2px;
+	border-right: #EAF9F8 solid 2px;
 }
 .footer .links .footerSection:last-child {
 	border-right: none;
 }
 
+.fa-bars {
+	color:#EAF9F8
+}
+
 .footer .fa-facebook-square, .footer .fa-instagram-square, .footer .fa-twitter-square, .footer .fa-envelope-square, .footer .fa-phone{
-	color: white;
+	color: #EAF9F8;
 	margin-right: 10px;
 	font-size: x-large;
 	/*Fix issue where icon doesnt show up in edge*/
@@ -103,22 +114,18 @@
 }
 
 @media screen and (max-width: 767px) {
-	.logoImg {
-		padding-top: 15px;
-		padding-right: 15px;
-		padding-bottom: 15px;
-		width: 400px;
-	}
 	.links .dropdown {
 		display: block;
+		width: max-content;
+		float: right;
 	}
 	.links .largeLink {
 		display: none;
 	}
 	.linkSelector {
 		width: 100%;
-		background-color: #049FD7;
-		color: white;
+		background-color: #0A589A;
+		color: #EAF9F8;
 		text-shadow: 1px 1px black;
 		border: none;
 		text-align: left;
@@ -143,13 +150,13 @@
 	/*Mostly to overwrite bootstrap stuff*/
 	.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
 		color: white;
-		background-color: #049FD7;
+		background-color: #0A589A;
 		text-shadow: 1px 1px black;
 		border: none;
 	}
 	.btn-secondary.focus, .btn-secondary:focus, .btn-secondary.hover, .btn-secondary:hover {
 		color: white;
-		background-color: #049FD7;
+		background-color: #0A589A;
 		text-shadow: 1px 1px black;
 		border: none;
 		box-shadow: none;
@@ -168,7 +175,7 @@
 	}
 	.dropdown-item.active, .dropdown-item:active {
 		color: white;
-		background-color: #049FD7;
+		background-color: #1999D1;
 		text-shadow: 1px 1px black;
 	}
 }
