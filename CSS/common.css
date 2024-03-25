@@ -30,6 +30,10 @@
 .imageCol {
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.linksCol {
+	padding-bottom: 10px;
 }
 .links {
 	background-color: #fff;

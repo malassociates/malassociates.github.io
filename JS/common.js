@@ -34,11 +34,11 @@ $(document).ready(function() {
 	 }
 	 if(curPage === 'home' || curPage === 'design' || curPage === 'construction') {
 		 curPage = curPage.charAt(0).toUpperCase() + curPage.slice(1);
-		 $('#mobile-title').html(curPage);
+		 $('#mobile-title').html(`<h1>${curPage}</h1>`);
 	 }
 	 else if (curPage === 'about-us') {
 		curPage = curPage.charAt(0).toUpperCase() + curPage.slice(1);
 		curPage = curPage.replace('-', ' ');
-		$('#mobile-title').html(curPage);
+		$('#mobile-title').html(`<h1>${curPage}</h1>`);
 	 }
 })
