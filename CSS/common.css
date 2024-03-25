@@ -1,12 +1,23 @@
+:root {
+	--logo-light-blue: #00C0FF;
+	--logo-accent-blue: #29AAE1;
+	--accent-blue: #13739B;
+	--accent-text-contrast: #C2C5C6;
+	--accent-text-high-contrast: white;
+  }
 .header {
 	background: white;
-	border-bottom: 15px solid #1999D1
+	border-bottom: 15px solid var(--logo-accent-blue);
+	justify-content: space-between;
+}
+#mobile-title {
+	display: none;
 }
 .content {
 	background: white;
 }
 .content h1, .content h2, .content h3 {
-	color: #1999D1;
+	color: var(--logo-accent-blue);
 	font-weight: bold;
 	text-shadow: 1px 1px #6A7174;
 }
@@ -14,13 +25,11 @@
 	font-weight: bold;
 }
 .logoImg {
-	padding-right: 15px;
-	min-width: 120px;
-	max-width: 150px;
-	width: 100%;
+	min-width: 100%;
 }
-.fullImg {
-	width: 100%;
+.imageCol {
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .links {
 	background-color: #fff;
@@ -30,11 +39,11 @@
 	display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-	padding-bottom: 28px;
+	padding-bottom: 8px;
     height: 100%;
 }
 .links span a{
-	color: #1999D1;
+	color: var(--logo-accent-blue);
 	text-shadow: 1px 1px #6A7174;
 	font-size: 28px;
 }
@@ -43,7 +52,7 @@
 	padding: 10px;
 }
 .links .link a.selected {
-	border-bottom: #0A589A solid 5px;
+	border-bottom: var(--accent-blue) solid 5px;
 	padding-bottom: 3px;
 }
 .footer{
@@ -52,13 +61,13 @@
 .footer .links h1, .footer .links h2, .footer .links h3, .footer .links h4{
 	text-align: left;
 	padding: 10px 0px;
-	color: #EAF9F8;
+	color: var(--accent-text-contrast);
 }
 .footer .links p {
-	color: #EAF9F8;
+	color: var(--accent-text-contrast);
 }
 .footer .links {
-	background-color: #063760;
+	background-color: var(--accent-blue);
 }
 
 .footer .links li{
@@ -67,12 +76,12 @@
 
 .footer .links ul {
 	padding-left: 5px;
-	color: #EAF9F8;
+	color: var(--accent-text-high-contrast);
 	text-shadow: 1px 1px #6A7174;
 }
 
 .footer .links ul li a{
-	color: #EAF9F8;
+	color: var(--accent-text-high-contrast);
 	font-weight: bold;
 }
 .footer .links ul li{
@@ -81,18 +90,18 @@
 
 .footer .links .footerSection {
 	margin: 5px 0px;
-	border-right: #EAF9F8 solid 2px;
+	border-right: var(--accent-text-high-contrast) solid 2px;
 }
 .footer .links .footerSection:last-child {
 	border-right: none;
 }
 
 .fa-bars {
-	color:#EAF9F8
+	color: var(--accent-text-high-contrast)
 }
 
 .footer .fa-facebook-square, .footer .fa-instagram-square, .footer .fa-square-x-twitter, .footer .fa-envelope-square, .footer .fa-phone{
-	color: #EAF9F8;
+	color: var(--accent-text-high-contrast);
 	margin-right: 10px;
 	font-size: x-large;
 	/*Fix issue where icon doesnt show up in edge*/
@@ -118,6 +127,19 @@
 }
 
 @media screen and (max-width: 767px) {
+	.header {
+		border-bottom: none;
+	}
+	#mobile-title {
+		display: block;
+		width: 100%;
+		background-color: var(--logo-accent-blue);
+		color: white;
+	}
+	#mobile-title h1 {
+		font-size: 1.75rem;
+		text-align: center;
+	}
 	.links .dropdown {
 		display: block;
 		width: max-content;
@@ -128,8 +150,8 @@
 	}
 	.linkSelector {
 		width: 100%;
-		background-color: #0A589A;
-		color: #EAF9F8;
+		background-color: var(--logo-accent-blue);
+		color: white;
 		text-shadow: 1px 1px black;
 		border: none;
 		text-align: left;
@@ -137,7 +159,7 @@
 	}
 	.footer .links .footerSection {
 		margin: 5px 0px;
-		border-bottom: white solid 2px;
+		border-bottom: var(--accent-text-contrast) solid 2px;
 		border-right: none;
 	}
 	.footer .links .footerSection .navigation li{
@@ -154,13 +176,13 @@
 	/*Mostly to overwrite bootstrap stuff*/
 	.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
 		color: white;
-		background-color: #0A589A;
+		background-color: var(--accent-blue);
 		text-shadow: 1px 1px black;
 		border: none;
 	}
 	.btn-secondary.focus, .btn-secondary:focus, .btn-secondary.hover, .btn-secondary:hover {
 		color: white;
-		background-color: #0A589A;
+		background-color: var(--accent-blue);
 		text-shadow: 1px 1px black;
 		border: none;
 		box-shadow: none;
@@ -171,6 +193,7 @@
 	.dropdown-menu.show {
 		width: 100%;
 		text-align: center;
+		left: -30px !important;
 	}
 	.dropdown-item {
 		font-weight: bold;
@@ -179,7 +202,7 @@
 	}
 	.dropdown-item.active, .dropdown-item:active {
 		color: white;
-		background-color: #1999D1;
+		background-color: var(--accent-blue);
 		text-shadow: 1px 1px black;
 	}
 }

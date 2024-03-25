@@ -1,7 +1,10 @@
-<div class="imageCol col-4 col-md-3">
-	<img class="logoImg img-fluid" src="./images/ksj-logo.jpg" alt="ksj living logo"/>
+<div class="imageCol">
+	<picture>
+		<source media="(max-width:768px)" srcset="./images/ksj_mobile.png">
+		<img src="./images/ksj_main.png" alt="ksj living logo">
+	</picture>
 </div>
-<div class="col-8 col-md-9">
+<div>
 	<nav class="links">
 		<div class="largeLink">
 			<div class="link">
@@ -25,10 +28,9 @@
 				</span>
 			</div>
 		</div>	
-		<div class="row dropdown">
-			<button class="btn btn-secondary dropdown-toggle linkSelector" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		<div class="dropdown">
+			<button class="btn btn-secondary dropdown-toggle linkSelector" type="button" id="dropdownMenuButton" title="navigation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				<i class="fas fa-bars"></i>
-				Home
 			</button>
 			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 				<a class="dropdown-item" href="./home">Home</a>
@@ -38,4 +40,7 @@
 			</div>
 		</div>
 	</nav>
+</div>
+<div id="mobile-title">
+	<h1>Home</h1>
 </div>
